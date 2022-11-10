@@ -13,10 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'After'
-        run: ls
+      - name: "loge in to docker"
+        run: docker login --username maanar --password dckr_pat_5swR5e9_TZQ0NMcOy1Qc7hO0dII
