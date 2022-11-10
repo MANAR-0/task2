@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Githup action'
-        run: pwd
+      - name: 'printing folder content'
+        run: ls
 
-      - name: 'Testing printing'
-        run: echo Manar
+      
