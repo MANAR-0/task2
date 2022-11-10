@@ -1,7 +1,11 @@
 on:
   push:
     branches:
-      -master
+      - master
+
+
+
+
 
 
 jobs:
@@ -9,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: 'Testing Githup action'
-       run: pwd
+      - name: 'Testing Githup action'
+        run: pwd
 
-      -name: 'Testing printing'
-       run: echo Manar
+      - name: 'Testing printing'
+        run: echo Manar
